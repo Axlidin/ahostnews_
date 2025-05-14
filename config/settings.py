@@ -133,9 +133,9 @@ LOCALE_PATHS = [
 
 STATIC_URL = '/static/'
 # STATIC_ROOT = BASE_DIR / 'staticfiles'
-STATIC_ROOT = '/home/shermat1/shermatov-darslari.uz/django/staticfiles'
+STATIC_ROOT = '/home/shermat1/shermatov-darslari.uz/ahostnews_/staticfiles'
 # STATICFILES_DIRS = [BASE_DIR / 'static']
-STATICFILES_DIRS = ('/home/shermat1/shermatov-darslari.uz/django/static',)
+STATICFILES_DIRS = ('/home/shermat1/shermatov-darslari.uz/ahostnews_/static',)
 
 STATICFILES_FINDERS = [
     'django.contrib.staticfiles.finders.FileSystemFinder',
@@ -143,7 +143,7 @@ STATICFILES_FINDERS = [
 ]
 
 MEDIA_URL = '/media/'
-MEDIA_ROOT = '/home/shermat1/shermatov-darslari.uz/django/media'
+MEDIA_ROOT = '/home/shermat1/shermatov-darslari.uz/ahostnews_/media'
 # MEDIA_ROOT = BASE_DIR / 'media'
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
